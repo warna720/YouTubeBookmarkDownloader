@@ -62,8 +62,6 @@ def main(src, amount_threads):
         t = threading.Thread(target=thread_worker, args = (sublist,))
         t.start()
 
-    print("Execution finished")
-
 if __name__ == "__main__":
     main(sys.argv[1], sys.argv[2])
     print(sys.argv[1])
