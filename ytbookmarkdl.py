@@ -64,4 +64,3 @@ def main(src, amount_threads):
 
 if __name__ == "__main__":
     main(sys.argv[1], sys.argv[2])
-    print(sys.argv[1])
