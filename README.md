@@ -16,5 +16,6 @@ TODO:
 
 Dependencies:
 
+    lynx
     pytube
     ffmpeg
